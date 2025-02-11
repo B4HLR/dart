@@ -1,0 +1,12 @@
+double primeriaNota = 35.5;
+double seegundaNota = 12;
+double terceiraNota = 12;
+
+void main() {
+  double media = mediaCalculo(primeriaNota, seegundaNota, terceiraNota);
+  print('sua media resulta em: ${media.toStringAsFixed(2)}');
+}
+
+double mediaCalculo(double a, double b, double c) {
+  return (a + b + c) / 3;
+}
