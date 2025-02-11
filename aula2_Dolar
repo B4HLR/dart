@@ -1,0 +1,5 @@
+double carteira = 500;
+double resultado = carteira / 5.15;
+void main() {
+   print('A quantidade de dolares possivel para comprar é: ${resultado.toStringAsFixed(2)}');
+}
