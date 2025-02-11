@@ -1,0 +1,16 @@
+void main() {
+  
+  double a = 2 , b = 8 , c = -24;
+  
+  double delta = deltaCalculo(a,b,c);
+  
+   print('Delta é: $delta');
+}
+
+/// equação Δ = B^2 - 4ac
+
+double deltaCalculo(double a , double b , double c){
+  
+  return (b * b) - (4 * a * c);
+  
+}
